@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./static/main.css">
+<title>Tech Solutions</title>
+</head>
+<body style="background-color: rgb(146, 152, 158);">
+    
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <div class="col-3 logo">
+                <img class="img" style="height: 50px" src="./static/images/techsolutions_logo.jpg" alt="logo">
+            </div>
+            <a class="navbar-brand text-black" href="./index.html">Tech Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0 link-light">
+                    <li class="nav-item">
+                        <a class="nav-link active link-light text-black" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link link-light text-black" href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light text-black" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light text-black" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="Login">
+                    <button class="btn btn-outline-info text-black" type="submit">Login</button>
+                    <button class="btn btn-outline-info mx-2 text-black" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1 class="text-center display-1"><strong></strong>Tech Solutions</strong></h1>
+    </header>
+    <main class="container mb-5 mt-5 my-4 p-3 border rounded shadow" style="background-color: rgb(255, 196, 0);">
+        <h3 class="text-center">Contact Us!</h3>
+        <form class="row needs-validation g-3 p-2" novalidate>
+
+            <div class="form-floating col-12 col-md-6 mb-3">
+              <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
+              <label for="firstname">First Name</label>
+              <div class="valid-feedback">Success!</div>
+              <div class="invalid-feedback">Please try again!</div>
+            </div>
+    
+            <div class="form-floating col-12 col-md-6">
+              <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
+              <label for="lastname">Last Name</label>
+              <div class="valid-feedback">Success!</div>
+              <div class="invalid-feedback">Please try again!</div>
+            </div>
+    
+            <div class="form-floating col-12">
+              <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@gmail.com" required>
+              <label for="email">Email</label>
+              <div class="valid-feedback">Success!</div>
+              <div class="invalid-feedback">Please try again!</div>
+            </div>
+    
+            <p class="text-center">Which service are you interested in?</p>
+            <div class="col-12 form-control-inline my-3 d-flex justify-content-center">
+    
+              <div>
+                <label for="services">Website Design</label>
+                <input type="radio" name='service' value="websitedesign">
+              </div>
+    
+              <div class="mx-3">
+                <label for="services">Technical Support</label>
+                <input type="radio" name='service' value="techsupport">
+              </div>
+    
+              <div>
+                <label for="services">Digital Security Services</label>
+                <input type="radio" name='service' value="security">
+              </div>
+    
+            </div>
+            
+            <div class="form-floating col-12">
+                <textarea class="form-control" id="additionalInfo" name="additionalInfo" placeholder="Additional Information"></textarea>
+                <label for="additionalInfo">Please provide any additional information</label>
+            </div>
+    
+              <button class="btn btn-primary" type="submit">Submit</button>
+              
+          </form>
+        </main>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
